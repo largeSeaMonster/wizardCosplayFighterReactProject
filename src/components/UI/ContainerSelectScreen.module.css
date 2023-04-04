@@ -1,0 +1,9 @@
+.container {
+  background-color: black;
+  display: grid;
+  overflow: hidden;
+  z-index: 1;
+
+  grid-template-rows: [mainy-start] 84rem [buttony-start] 6rem [buttony-end] 2rem [mainy-end];
+  grid-template-columns: [fullx-start] 1fr [mainx-start] 55rem [mainx-end] 1fr [fullx-end];
+}

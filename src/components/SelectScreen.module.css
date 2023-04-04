@@ -1,0 +1,79 @@
+.container {
+  background-color: black;
+  display: grid;
+  overflow: hidden;
+  z-index: 1;
+
+  grid-template-rows: [fully-start] 1fr [mainy-start] 84rem [buttony-start] 6rem [buttony-end] 8rem [mainy-end] 1fr [fully-end];
+  grid-template-columns: [fullx-start] 1fr [mainx-start] 55rem [mainx-end] 1fr [fullx-end];
+}
+
+.container img {
+  grid-row: mainy-start/ mainy-end;
+  grid-column: mainx-start/ mainx-end;
+}
+
+.buttonRow {
+  grid-row: buttony-start/buttony-end;
+  grid-column: mainx-start/ mainx-end;  
+  align-items: stretch;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blueButton {
+  background: #5294ff;
+  border-color: #2973ff;
+  border-width: 0.4rem;
+  border-style: solid;
+  height: 6rem;
+  width: 6rem;
+  z-index: 10;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.blueButton:hover,
+.blueButton:active {
+  background: #98bbf3;
+  border-color: #5294ff;
+  
+}
+
+.greyButton {
+  background: #a8afa7;
+  border-color: #707a6f;
+  border-width: 0.4rem;
+  border-style: solid;
+  height: 6rem;
+  width: 6rem;
+  z-index: 10;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.greyButton:hover,
+.greyButton:active {
+  background: #bbbbbb;
+  border-color: #a8afa7;
+  box-shadow: 0 1.5px 1px rgba(0, 0, 0, 0.6);
+}
+
+.redButton {
+  background: #fb0000;
+  border-color: #962626;
+  border-width: 0.4rem;
+  border-style: solid;
+  height: 6rem;
+  width: 6rem;
+  z-index: 10;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.redButton:hover,
+.redButton:active {
+  background: #f86666;
+  border-color: #fb0000;
+  box-shadow: 0 1.5px 1px rgba(0, 0, 0, 0.6);
+}

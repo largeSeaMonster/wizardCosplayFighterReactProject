@@ -1,0 +1,55 @@
+.greyIntro {
+  display: grid;
+  grid-row: mainy-start/ mainy-end;
+  grid-column: mainx-start/ mainx-end;
+}
+
+.greyIntro img {
+  grid-row: mainy-start/ mainy-end;
+  grid-column: mainx-start/ mainx-end;
+}
+
+.room_0Default {
+  position: relative;
+  z-index: 5;
+}
+
+.introPieces_0Grey {
+  position: relative;
+  z-index: 8;
+}
+
+.introPieces_1Grey {
+  position: relative;
+  z-index: 8;
+}
+
+.introPieces_2Grey {
+  position: relative;
+  z-index: 8;
+}
+
+.introPieces_3Grey {
+  position: relative;
+  z-index: 8;
+}
+
+.introPieces_4Grey {
+  position: relative;
+  z-index: 8;
+}
+
+.introPieces_5Grey {
+  position: relative;
+  z-index: 8;
+}
+
+.mat_3Grey {
+  position: relative;
+  z-index: 6;
+}
+
+.backgroundGrey {
+  position: relative;
+  z-index: 5;
+}

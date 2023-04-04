@@ -1,0 +1,4 @@
+.mainCard {
+  grid-row: mainy-start/ mainy-end;
+  grid-column: mainx-start/ mainx-end;
+}

@@ -1,0 +1,8 @@
+.blueContainer {
+  background-color: #5294ff;
+  display: grid;
+
+  grid-template-rows: [fully-start] 1fr [mainy-start] 20.4rem [booky-start] 77.6rem [mainy-end] 1fr [fully-end];
+  grid-template-columns: [fullx-start] 1fr [bookx-start] 20.5rem [mainx-start] 55rem [mainx-end] 20.5rem [bookx-end] 1fr [fullx-end];
+}
+
